@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/board"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="@string/filler"
+                android:textSize="70dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="what are this" />
+
+            <TextView
+                android:id="@+id/humanCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/serclient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/tiesCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/androidCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be X"
+            android:id="@+id/beX" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Be 0"
+            android:id="@+id/beO" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Again"
+            android:id="@+id/playagain" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/output" />
+    </ScrollView>
+
+</LinearLayout>

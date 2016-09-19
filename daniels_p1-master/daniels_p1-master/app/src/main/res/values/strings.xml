@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Continents</string>
+
+    <string name="drawer1">North America</string>
+    <string name="drawer2">South America</string>
+    <string name="drawer3">Antarctica</string>
+    <string name="drawer4">Asia</string>
+    <string name="drawer5">Oceana</string>
+    <string name="drawer6">Europe</string>
+    <string name="drawer7">Africa</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+
+    <Button
+        android:id="@+id/moveUpLeft"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/up_left"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <Button
+        android:id="@+id/moveUp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/up"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+    <Button
+        android:id="@+id/moveUpRight"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/up_right"
+        android:layout_row="0"
+        android:layout_column="2" />
+
+
+    <Button
+        android:id="@+id/shotUpLeft"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/up_left"
+        android:layout_row="0"
+        android:layout_column="11" />
+
+    <Button
+        android:id="@+id/shotUp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/up"
+        android:layout_row="0"
+        android:layout_column="12" />
+
+    <Button
+        android:id="@+id/shotUpRight"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/up_right"
+        android:layout_row="0"
+        android:layout_column="13" />
+
+
+    <Button
+        android:id="@+id/moveLeft"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/left"
+        android:layout_row="1"
+        android:layout_column="0" />
+
+    <Button
+        android:id="@+id/moveBlank"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/middle"
+        android:layout_row="1"
+        android:layout_column="1" />
+
+    <Button
+        android:id="@+id/moveRight"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/right"
+        android:layout_row="1"
+        android:layout_column="2" />
+
+    <Button
+        android:id="@+id/shotLeft"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/left"
+        android:layout_row="1"
+        android:layout_column="11" />
+
+    <Button
+        android:id="@+id/shotBlank"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/middle"
+        android:layout_row="1"
+        android:layout_column="12" />
+
+    <Button
+        android:id="@+id/shotRight"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/right"
+        android:layout_row="1"
+        android:layout_column="13" />
+
+    <Button
+        android:id="@+id/moveDownLeft"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/down_left"
+        android:layout_row="2"
+        android:layout_column="0" />
+
+    <Button
+        android:id="@+id/moveDown"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/down"
+        android:layout_row="2"
+        android:layout_column="1" />
+
+    <Button
+        android:id="@+id/moveDownRight"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/down_right"
+        android:layout_row="2"
+        android:layout_column="2" />
+
+    <Button
+        android:id="@+id/shotDownLeft"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/down_left"
+        android:layout_row="2"
+        android:layout_column="11" />
+
+    <Button
+        android:id="@+id/shotDown"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/down"
+        android:layout_row="2"
+        android:layout_column="12" />
+
+    <Button
+        android:id="@+id/shotDownRight"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/down_right"
+        android:layout_row="2"
+        android:layout_column="13" />
+
+</GridLayout>
